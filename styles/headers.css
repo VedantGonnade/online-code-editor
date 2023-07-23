@@ -1,0 +1,51 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 222, 222);
+    padding: 0px;
+    align-items: center;
+    white-space: nowrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(168, 163, 163);
+    border-radius: 5px;
+    padding: 2px 0px;
+}
+
+.middle-section button {
+    margin: 0px;
+    background-color: rgb(177, 194, 201);
+    border: 1px solid rgb(228, 222, 222);
+    cursor: pointer;
+    padding: 7px 12px;
+}
+
+.middle-section button:hover {
+    background-color: rgb(150, 170, 180);
+}
+
+.left-section {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.right-section button {
+    margin-right: 10px;
+    background-color: rgb(177, 194, 201);
+    border: 2px solid rgb(168, 163, 163);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 7px 4px;
+}
+
+.right-section button:hover {
+    background-color: rgb(150, 170, 180);
+}
