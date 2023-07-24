@@ -1,0 +1,9 @@
+.main-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+}
