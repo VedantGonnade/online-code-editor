@@ -1,45 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Code Editor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+        <title>Live Code Editor</title>
         <link rel="stylesheet" href="./styles/headers.css">
         <link rel="stylesheet" href="./styles/general.css">
         <link rel="stylesheet" href="./styles/main-body.css">
     </head>
     <body>
-        <nav class="nav-bar">
-            <div class="left-section">Online Code Editor</div>
-            <div class="middle-section">
-                <button class="html-button">
-                    HTML
-                </button>
-                <button>CSS</button>
-                <button>JavaSript</button>
-                <button>Output</button>
+        <div class="container">
+            <h1>Code Editor <span>👨‍💻</span></h1>
+            <div class="main">
+                <div class="html">
+                    <label>HTML</label>
+                    <textarea id="html-code"></textarea>
+                </div>
+    
+                <div class="css">
+                    <label>CSS</label>
+                    <textarea id="css-code"></textarea>
+                </div>
+    
+                <div class="js">
+                    <label>JS</label>
+                    <textarea id="js-code"></textarea>
+                </div>
+    
+                <div class="result">
+                    <label>RESULT</label>
+                    <textarea id="result"></textarea>
+                </div>
             </div>
-            <div class="right-section">
-                <button>Run</button>
-            </div> 
-        </nav>
+        </div>
+       
         
-        <main class="main-body">
-            <div class="html-body">
-                <div>HTML</div>
-                <input type="text">
-            </div>
-            <div>
-                <div>CSS</div>
-                <input type="text">
-            </div>
-            <div>
-                <div>JS</div>
-                <input type="text">
-            </div>
-            <div>
-                <div>Result</div>
-                <input type="text">
-            </div>
-        </main>
+    
         
         <script src="./scripts/main.js"></script>
         <script src="./scripts/html-button.js"></script>
