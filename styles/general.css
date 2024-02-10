@@ -1,14 +1,11 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    background-color: #454545;
-    color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #363333;
+  color: #aebb74;
 }
 
-button {
-    margin: 0px;
-    padding: 0px;
-}
+
