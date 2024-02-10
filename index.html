@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
-        <title>Live Code Editor</title>
-        <link rel="stylesheet" href="./styles/general.css">
-        <link rel="stylesheet" href="./styles/body.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    </head>
-    <body>
-        <div class="container">
-            <h1 class="heading">Code Editor <span>👨‍💻</span></h1>
-            <div class="main">
-                <div class="html">
-                    <label><i class='bx bxl-html5'></i>HTML</label>
-                    <textarea id="html-code"></textarea>
-                </div>
-    
-                <div class="css">
-                    <label><i class='bx bxl-css3'></i>CSS</label>
-                    <textarea id="css-code"></textarea>
-                </div>
-    
-                <div class="js">
-                    <label><i class='bx bxl-javascript' ></i>JS</label>
-                    <textarea id="js-code"></textarea>
-                </div>
-    
-                <div class="output">
-                    <label><i class='bx bx-play' ></i>OUTPUT</label>
-                    <iframe id="output"></iframe>
-                </div>
-            </div>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="UTF-8"
+    />
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/body.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Code Editor <span>👨‍💻</span></h1>
+      <div class="main">
+        <div class="html">
+          <label><i class="bx bxl-html5"></i>HTML</label>
+          <textarea spellcheck="false" id="html-code"></textarea>
         </div>
 
-        <script src="./scripts/main.js"></script>        
-    </body>
+        <div class="css">
+          <label><i class="bx bxl-css3"></i>CSS</label>
+          <textarea spellcheck="false" id="css-code"></textarea>
+        </div>
+
+        <div class="js">
+          <label><i class="bx bxl-javascript"></i>JS</label>
+          <textarea spellcheck="false" id="js-code"></textarea>
+        </div>
+
+        <div class="output">
+          <label><i class="bx bx-play"></i>OUTPUT</label>
+          <iframe id="output"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
 </html>
