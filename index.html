@@ -20,22 +20,22 @@
       <div class="main">
         <div class="html">
           <label><i class="bx bxl-html5"></i>HTML</label>
-          <textarea spellcheck="false" id="html-code"></textarea>
+          <textarea onkeyup="run()" spellcheck="false" id="html-code"></textarea>
         </div>
 
         <div class="css">
           <label><i class="bx bxl-css3"></i>CSS</label>
-          <textarea spellcheck="false" id="css-code"></textarea>
+          <textarea onkeyup="run()" spellcheck="false" id="css-code"></textarea>
         </div>
 
         <div class="js">
           <label><i class="bx bxl-javascript"></i>JS</label>
-          <textarea spellcheck="false" id="js-code"></textarea>
+          <textarea onkeyup="run()" spellcheck="false" id="js-code"></textarea>
         </div>
 
         <div class="output">
           <label><i class="bx bx-play"></i>OUTPUT</label>
-          <iframe id="output"></iframe>
+          <iframe id="output" frameborder="0"></iframe>
         </div>
       </div>
     </div>
